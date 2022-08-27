@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 connection.connect();
 
 app.get('/', (req, res) => {
-    res.send('Hello World com Node.jsaaaaa!');
+    res.send('Hello World,  Pedro Zeferino com Node.js! e Docker 2022');
 })
 
 app.listen(process.env.PORT || 3000, () => {
